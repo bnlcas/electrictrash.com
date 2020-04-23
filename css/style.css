@@ -1,0 +1,31 @@
+.main {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main::before {
+      content: "";
+      background-image: url('../trash_pile.jpg');
+      background-size: cover;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.2;
+}
+
+.content
+{
+  padding-top: 2px;
+  padding-left: 25px;
+  text-align: left;
+}
+
+ul
+{
+  list-style-type:none;
+}
