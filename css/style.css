@@ -23,6 +23,8 @@
   padding-top: 2px;
   padding-left: 25px;
   text-align: left;
+  position: relative;
+  z-index: 1;
 }
 
 ul
